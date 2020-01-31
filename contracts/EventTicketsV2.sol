@@ -94,7 +94,7 @@ contract EventTicketsV2 {
             4. sales
             5. isOpen
     */
-    function readEvent(uint_eventId) public view returns(string memory,string memory, uint, uint, bool){
+    function readEvent(uint _eventId) public view returns(string memory,string memory, uint, uint, bool){
         
         Event storage ent = events[_eventId];
 
