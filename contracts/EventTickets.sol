@@ -56,7 +56,7 @@ contract EventTickets {
         Set the owner to the creator of the contract.
         Set the appropriate myEvent details.
     */
-    constructor(sting memory _description, string memory _website, uint _totalTickets) public{
+    constructor(string memory _description, string memory _website, uint _totalTickets) public{
         owner = msg.sender;
         myEvent.description = _description;
         myEvent.website = _website;
