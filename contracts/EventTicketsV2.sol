@@ -80,7 +80,7 @@ contract EventTicketsV2 {
                                     sales:0,
                                     isOpen: true});
 
-        emit LogEventAdded(_description, _website, _totalTicket, _eventId);
+        emit LogEventAdded(_description, _website, _totalTicket, eventId);
         return(eventId);
     }
 
